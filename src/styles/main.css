@@ -1,0 +1,143 @@
+.home-main {
+    width: 1240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 30px auto;
+}
+
+.home-main__calendar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 65px;
+}
+
+.main-calendar__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-calendar__title span {
+    color: #FFF;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+.main-calendar__title p {
+    color: #DE131E;
+    font-size: 75px;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+
+.main-calendar__date {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    margin-left: 70px;
+}
+
+.main-date {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+}
+
+.date {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 21px;
+    color: #DE131E;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 114.5px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+
+.date span {
+    color: #FFF;
+}
+
+.main-date__week {
+    color: #8e8e8e;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    transform: translateY(-30px);
+}
+
+.main-date_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.user-finally {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-info {
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.user-info img{
+    z-index: 2;
+} 
+
+.user-finally__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 130px;
+    height: 59px;
+    border-radius: 10px;
+    background: #DE131E;
+    transform: translate(-27px,23px);
+    z-index: 1;
+}
+
+.user-finally__text p {
+    width: 70px;
+    color: #ffffffce;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 13.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.user-finally__text span {
+    width: 70px;
+    color: #EE9095;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
