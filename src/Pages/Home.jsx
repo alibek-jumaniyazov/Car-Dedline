@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../Components/home-header/Header'
 import user from '../images/userData.png'
+import Calendar from '../Components/home-main/Calendar'
 
 export default function Home() {
   return (
@@ -75,9 +76,12 @@ export default function Home() {
                 </svg>
               </div>
             </div>
+            <div className="caledar-component__info">
+              <Calendar />
+
+            </div>
           </div>
         </div>
-
       </div>
     </div>
   )

@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <div className='Header'>
             <img src={Logo} alt="" className="logo" />
-            <ul className="header-list">    
+            <ul className="header-list">
                 <li className="header-list__items">Трек-дни</li>
                 <li className="header-list__items">Спорткары</li>
                 <li className="header-list__items">Сертификаты</li>
