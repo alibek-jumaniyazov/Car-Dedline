@@ -6,7 +6,9 @@
     align-items: flex-start;
     margin: 30px auto;
 }
-
+.MainDates{
+    width: 100%;
+}
 .home-main__calendar {
     width: 100%;
     display: flex;
@@ -264,4 +266,10 @@
     gap: 70px;
     flex-wrap: wrap;
     transform: translateX(90px);
+}
+
+/* Car Map */
+
+.CarMap{
+
 }
